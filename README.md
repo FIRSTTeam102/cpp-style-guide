@@ -8,7 +8,7 @@ Conventions are grouped by topic, and each convention is numbered to make it eas
 
 Conventions are written using this layout:
 
-#### S#. Short description
+**S#. Short description**
 `Example (if available)`
 
 Longer description and reasoning
@@ -21,11 +21,11 @@ These non-C++ terms will commonly be used throughout the guide:
 * __camelCase__: naming convention where the first letter of each word in a compound word is capitalized, except for the first word
 * __PascalCase__: naming convention where the first letter of each word in a compound word is capitalized, including the first word
 
-# G. General
+# General
 #### G1. Any violation to the guide is allowed if it enhances readability.
 The main goal of the recommendations is to improve readability, which increases the maintanibility and quality of the code. Every specific case will not be listed, so use your own discretion. If you think something should look different as it is easier to read, then make it look different.
 
-# N. Naming conventions
+# Naming conventions
 This section derermines how things should be named inside of code.
 
 #### N1. Class or enum names must be in PascalCase.
@@ -55,7 +55,7 @@ This excludes `Initialize`, `Execute`, `End`, and `IsFinished`.
 #### N4. Variables with a large scope should have long names, variables with a small scope can have short names.
 Scratch variables used for temporary storage or indices and are best kept short. (like `i` in a loop) A programmer reading it should be able to assume that its value is not used outside of a few lines of code.
 
-# F. Files
+# Files
 This section determines how files should be organized.
 
 #### F1. A class should be declared in a header file and defined in a source file, where the name of the files match the name of the class.
@@ -68,7 +68,7 @@ This keeps related files together and the commands folder unclutered.
 
 #### F3. Simple methods (like getters) that are less than 3 lines should be defined in the header file.
 
-# L. Layout
+# Layout
 This desction determines how code should be formatted.
 
 #### L1. Basic indentation should be one TAB. (not spaces)
