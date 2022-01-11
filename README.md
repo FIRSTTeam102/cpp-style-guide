@@ -85,7 +85,7 @@ void Shooter::toggleServo() {
 Indentation is used to emphasize the logical structure of the code. Tabs are standardized, more efficent, and can be configured to display at any chosen width.
 
 #### L2. Write minimal but sufficient comments.
-The use of comments should be minimized by making the code self-documenting, like appropriate naming and an explicit logical structure. However, the code can only tell a reader how the code words and now what it is supposed to do.
+The use of comments should be minimized by making the code self-documenting, like appropriate naming and an explicit logical structure. However, the code can only tell a reader how the code words and not what it is supposed to do.
 
 #### L3. Block layout must be used. Opening curly brackets must be on the same line as the statement.
 ```cpp
