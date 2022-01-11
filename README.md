@@ -116,12 +116,19 @@ b = pObject->b;
 
 #### L6. Logical units within a block should be separated by one blank line.
 
-#### L7. Include statements must be at the top of the file. Library include statements (using angle brackets) should be separated from file include statements (using quotes). Include statements should be sorted by their hierarchical position.
+#### L7. Include statements must be at the top of the file. Library includes should use angled brackets and project file includes should use quotes. Include statements within groups should be sorted by their hierarchical position. Inlude statements should be placed in the below order:
 ```cpp
+// Related header file
+#include "subsystems/Shooter.h"
+
+// C++ libraries
 #include <cmath.h>
+
+// Other libraries
 #include <ctre/Phoenix.h>
 #include <frc/Encoder.h>
 
+// Additional project files
 #include "Constants.h"
-#include "subsystems/Shooter.h"
+#include "subsystems/Indexer.h"
 ```
