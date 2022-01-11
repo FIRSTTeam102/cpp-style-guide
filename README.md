@@ -1,14 +1,11 @@
 # Introduction
-This guide lists C++ coding conventions/recommendations for use with WPILib-based robot programming.
-
-This guide is based on [GeoSoft's](https://geosoft.no/development/cppstyle.html), [WPILib's](https://github.com/wpilibsuite/styleguide/blob/main/cppguide.html), and conventions previously used in our code.
+This guide lists C++ coding conventions/recommendations for use with WPILib-based robot programming. It is based on [GeoSoft's](https://geosoft.no/development/cppstyle.html), [WPILib's](https://github.com/wpilibsuite/styleguide/blob/main/cppguide.html), and conventions previously used in our code.
 
 ## Layout
-Conventions are grouped by topic, and each convention is numbered to make it easier to refer to.
-
-Conventions are written using this layout:
+Conventions are grouped by topic, and each convention has an ID to make it easier to refer to. They are written using this layout:
 
 **S#. Short description**
+
 `Example (if available)`
 
 Longer description and reasoning
@@ -23,7 +20,7 @@ These non-C++ terms will commonly be used throughout the guide:
 
 # General
 #### G1. Any violation to the guide is allowed if it enhances readability.
-The main goal of the recommendations is to improve readability, which increases the maintanibility and quality of the code. Every specific case will not be listed, so use your own discretion. If you think something should look different as it is easier to read, then make it look different.
+The goal of these conventions is to improve readability, which increases the maintanibility and quality of our code. Every specific case will not be listed, so use your own discretion. If you think something should look different as it is easier to read, then make it look different.
 
 # Naming conventions
 This section derermines how things should be named inside of code.
