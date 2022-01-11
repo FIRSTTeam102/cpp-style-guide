@@ -122,7 +122,7 @@ double v = table->GetNumber("tv", 0.0);
 // Aim only if a target is found
 if (tv != 0.0) aimTarget(x, y);
 ```
-Small units of code can make sense by themselves, but combining them with surrounding code can make it confusing to read. This also allows you to add a comment for a sepcific unit.
+A logical unit is a set of lines of code that fit together logically and contextually. Small units of code can make sense by themselves, but combining them with surrounding code can make it confusing to read. This also allows you to clearly have a comment for a specific unit.
 
 #### L7. Include statements must be at the top of the file. Library includes should use angled brackets and project file includes should use quotes. Include statements within groups should be sorted alphabetically. Inlude statements should be placed in the below order:
 ```cpp
