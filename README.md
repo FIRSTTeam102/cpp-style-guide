@@ -7,8 +7,8 @@ This guide is based on [GeoSoft's](https://geosoft.no/development/cppstyle.html)
 Conventions are grouped by topic, and each convention is numbered to make it easier to refer to.
 
 Conventions are written using this layout:
-<h4>n. Short description</h4>
 
+#### n. Short description
 `Example (if available)`
 
 Longer description and reasoning
@@ -48,8 +48,7 @@ If a member variable is also a pointer, then it should be labeled as both (`mp`)
 #### 4. Method or function names must be written in camelCase and should be verbs.
 `getSpeed()`, `drive()`
 
-##### 4a. WPILib-defined methods must be written in PascalCase.
-`Initialize`, `Execute`, `End`, `IsFinished`
+This excludes `Initialize`, `Execute`, `End`, and `IsFinished`.
 
 #### 5. Variables with a large scope should have long names, variables with a small scope can have short names.
 Scratch variables used for temporary storage or indices and are best kept short. (like `i` in a loop) A programmer reading it should be able to assume that its value is not used outside of a few lines of code.
