@@ -115,6 +115,17 @@ b = pObject->b;
 ```
 
 #### L6. Logical units within a block should be separated by one blank line.
+```cpp
+std::shared_ptr<NetworkTable> table = nt::NetworkTableInstance::GetDefault().GetTable("limelight");
+
+double x = table->GetNumber("tx", 0.0);
+double y = table->GetNumber("ty", 0.0);
+double v = table->GetNumber("tv", 0.0);
+
+// Aim only if a target is found
+if (tv != 0.0) aimTarget(x, y);
+```
+Small units of code can make sense by themselves, but combining them with surrounding code can make it confusing to read. This also allows you to add a comment for a sepcific unit.
 
 #### L7. Include statements must be at the top of the file. Library includes should use angled brackets and project file includes should use quotes. Include statements within groups should be sorted alphabetically. Inlude statements should be placed in the below order:
 ```cpp
