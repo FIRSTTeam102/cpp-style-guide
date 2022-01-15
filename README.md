@@ -131,10 +131,8 @@ A logical unit is a set of lines of code that fit together logically and context
 // Related header file
 #include "subsystems/Shooter.h"
 
-// C++ libraries
+// Libraries
 #include <cmath.h>
-
-// Other libraries
 #include <ctre/Phoenix.h>
 #include <frc/Encoder.h>
 
